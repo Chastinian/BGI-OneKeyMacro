@@ -58,7 +58,7 @@
 
 > **[GitHub Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)**
 
-在 Releases 页面找到最新版本，下载 `BetterGenshinImpact.OneKeyMacro.zip`，解压后双击 `BetterGenshinImpact.OneKeyMacro.exe` 即可运行。
+在 Releases 页面找到最新版本，下载 `BetterGenshinImpact.OneKeyMacro.zip`，解压后先**仔细阅读用户手册 `README.pdf`**，然后双击 `BetterGenshinImpact.OneKeyMacro.exe` 即可运行。
 
 > **提示**：以管理员权限运行以注册全局热键。
 
