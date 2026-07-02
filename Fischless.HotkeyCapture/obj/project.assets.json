@@ -1,0 +1,342 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows10.0.22621": {
+      "Vanara.Core/4.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/Vanara.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Vanara.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows7.0/fr/Vanara.Core.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Vanara.PInvoke.Gdi32/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Vanara.PInvoke.Shared": "4.1.3"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.Gdi32.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.Gdi32.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vanara.PInvoke.Kernel32/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Vanara.PInvoke.Shared": "4.1.3"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.Kernel32.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.Kernel32.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vanara.PInvoke.Shared/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Vanara.Core": "4.1.3"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vanara.PInvoke.User32/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Vanara.PInvoke.Gdi32": "4.1.3",
+          "Vanara.PInvoke.Kernel32": "4.1.3"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.User32.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Vanara.PInvoke.User32.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vanara.Core/4.1.3": {
+      "sha512": "nsHkzUXb7Eb0O5iay38Uhqn0eYv4yUPwneZXzlRxyjrw9ySFZz8h1bfAaNKWAaCSqdmcj80wG8rynBHsF6Exyw==",
+      "type": "package",
+      "path": "vanara.core/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Vanara64x64.png",
+        "lib/net48/Vanara.Core.dll",
+        "lib/net48/Vanara.Core.xml",
+        "lib/net48/fr/Vanara.Core.resources.dll",
+        "lib/net5.0/Vanara.Core.dll",
+        "lib/net5.0/Vanara.Core.xml",
+        "lib/net5.0/fr/Vanara.Core.resources.dll",
+        "lib/net6.0/Vanara.Core.dll",
+        "lib/net6.0/Vanara.Core.xml",
+        "lib/net6.0/fr/Vanara.Core.resources.dll",
+        "lib/net7.0/Vanara.Core.dll",
+        "lib/net7.0/Vanara.Core.xml",
+        "lib/net7.0/fr/Vanara.Core.resources.dll",
+        "lib/net8.0-windows7.0/Vanara.Core.dll",
+        "lib/net8.0-windows7.0/Vanara.Core.xml",
+        "lib/net8.0-windows7.0/fr/Vanara.Core.resources.dll",
+        "lib/net9.0-windows7.0/Vanara.Core.dll",
+        "lib/net9.0-windows7.0/Vanara.Core.xml",
+        "lib/net9.0-windows7.0/fr/Vanara.Core.resources.dll",
+        "lib/netcoreapp3.1/Vanara.Core.dll",
+        "lib/netcoreapp3.1/Vanara.Core.xml",
+        "lib/netcoreapp3.1/fr/Vanara.Core.resources.dll",
+        "lib/netstandard2.0/Vanara.Core.dll",
+        "lib/netstandard2.0/Vanara.Core.xml",
+        "lib/netstandard2.0/fr/Vanara.Core.resources.dll",
+        "pkgreadme.md",
+        "vanara.core.4.1.3.nupkg.sha512",
+        "vanara.core.nuspec"
+      ]
+    },
+    "Vanara.PInvoke.Gdi32/4.1.3": {
+      "sha512": "a7qaHeZX6C08t1nQdu40/rXPd3vPSdX88Qbvd76vSkmBizdDNDpRSSGlBzyK5frxVlzvyzoMrv70uwgEG594xw==",
+      "type": "package",
+      "path": "vanara.pinvoke.gdi32/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Vanara64x64.png",
+        "lib/net48/Vanara.PInvoke.Gdi32.dll",
+        "lib/net48/Vanara.PInvoke.Gdi32.xml",
+        "lib/net5.0/Vanara.PInvoke.Gdi32.dll",
+        "lib/net5.0/Vanara.PInvoke.Gdi32.xml",
+        "lib/net6.0/Vanara.PInvoke.Gdi32.dll",
+        "lib/net6.0/Vanara.PInvoke.Gdi32.xml",
+        "lib/net7.0/Vanara.PInvoke.Gdi32.dll",
+        "lib/net7.0/Vanara.PInvoke.Gdi32.xml",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.Gdi32.dll",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.Gdi32.xml",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.Gdi32.dll",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.Gdi32.xml",
+        "lib/netcoreapp3.1/Vanara.PInvoke.Gdi32.dll",
+        "lib/netcoreapp3.1/Vanara.PInvoke.Gdi32.xml",
+        "lib/netstandard2.0/Vanara.PInvoke.Gdi32.dll",
+        "lib/netstandard2.0/Vanara.PInvoke.Gdi32.xml",
+        "pkgreadme.md",
+        "vanara.pinvoke.gdi32.4.1.3.nupkg.sha512",
+        "vanara.pinvoke.gdi32.nuspec"
+      ]
+    },
+    "Vanara.PInvoke.Kernel32/4.1.3": {
+      "sha512": "sv0aVmFJRSBUq/nIdB66JaDBpUlB1tepmuInlnJv+21uqhJrEIrF77DfFAKjjuAbAUeNoCL6OVcNVPs2Tg0vBQ==",
+      "type": "package",
+      "path": "vanara.pinvoke.kernel32/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Vanara64x64.png",
+        "lib/net48/Vanara.PInvoke.Kernel32.dll",
+        "lib/net48/Vanara.PInvoke.Kernel32.xml",
+        "lib/net5.0/Vanara.PInvoke.Kernel32.dll",
+        "lib/net5.0/Vanara.PInvoke.Kernel32.xml",
+        "lib/net6.0/Vanara.PInvoke.Kernel32.dll",
+        "lib/net6.0/Vanara.PInvoke.Kernel32.xml",
+        "lib/net7.0/Vanara.PInvoke.Kernel32.dll",
+        "lib/net7.0/Vanara.PInvoke.Kernel32.xml",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.Kernel32.dll",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.Kernel32.xml",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.Kernel32.dll",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.Kernel32.xml",
+        "lib/netcoreapp3.1/Vanara.PInvoke.Kernel32.dll",
+        "lib/netcoreapp3.1/Vanara.PInvoke.Kernel32.xml",
+        "lib/netstandard2.0/Vanara.PInvoke.Kernel32.dll",
+        "lib/netstandard2.0/Vanara.PInvoke.Kernel32.xml",
+        "pkgreadme.md",
+        "vanara.pinvoke.kernel32.4.1.3.nupkg.sha512",
+        "vanara.pinvoke.kernel32.nuspec"
+      ]
+    },
+    "Vanara.PInvoke.Shared/4.1.3": {
+      "sha512": "iROx+wXrbSyZ+zwxfUjRyo+67VZpF8PwqY/9H7fuMjyiL0squeHilHaeawt0SQgNbYDl2DntKjDfVYd/ua0GkQ==",
+      "type": "package",
+      "path": "vanara.pinvoke.shared/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Vanara64x64.png",
+        "lib/net48/Vanara.PInvoke.Shared.dll",
+        "lib/net48/Vanara.PInvoke.Shared.xml",
+        "lib/net5.0/Vanara.PInvoke.Shared.dll",
+        "lib/net5.0/Vanara.PInvoke.Shared.xml",
+        "lib/net6.0/Vanara.PInvoke.Shared.dll",
+        "lib/net6.0/Vanara.PInvoke.Shared.xml",
+        "lib/net7.0/Vanara.PInvoke.Shared.dll",
+        "lib/net7.0/Vanara.PInvoke.Shared.xml",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.Shared.dll",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.Shared.xml",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.Shared.dll",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.Shared.xml",
+        "lib/netcoreapp3.1/Vanara.PInvoke.Shared.dll",
+        "lib/netcoreapp3.1/Vanara.PInvoke.Shared.xml",
+        "lib/netstandard2.0/Vanara.PInvoke.Shared.dll",
+        "lib/netstandard2.0/Vanara.PInvoke.Shared.xml",
+        "pkgreadme.md",
+        "vanara.pinvoke.shared.4.1.3.nupkg.sha512",
+        "vanara.pinvoke.shared.nuspec"
+      ]
+    },
+    "Vanara.PInvoke.User32/4.1.3": {
+      "sha512": "Ov9kbbV7UDLXrHet296pRVQGWrUN3lVzXaGio4IBICZFcCqT+kMpBUTIsfXTRcArfQCqGv0hjiesZ5MaW6B1Hg==",
+      "type": "package",
+      "path": "vanara.pinvoke.user32/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Vanara64x64.png",
+        "lib/net48/Vanara.PInvoke.User32.dll",
+        "lib/net48/Vanara.PInvoke.User32.xml",
+        "lib/net5.0/Vanara.PInvoke.User32.dll",
+        "lib/net5.0/Vanara.PInvoke.User32.xml",
+        "lib/net6.0/Vanara.PInvoke.User32.dll",
+        "lib/net6.0/Vanara.PInvoke.User32.xml",
+        "lib/net7.0/Vanara.PInvoke.User32.dll",
+        "lib/net7.0/Vanara.PInvoke.User32.xml",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.User32.dll",
+        "lib/net8.0-windows7.0/Vanara.PInvoke.User32.xml",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.User32.dll",
+        "lib/net9.0-windows7.0/Vanara.PInvoke.User32.xml",
+        "lib/netcoreapp3.1/Vanara.PInvoke.User32.dll",
+        "lib/netcoreapp3.1/Vanara.PInvoke.User32.xml",
+        "lib/netstandard2.0/Vanara.PInvoke.User32.dll",
+        "lib/netstandard2.0/Vanara.PInvoke.User32.xml",
+        "pkgreadme.md",
+        "vanara.pinvoke.user32.4.1.3.nupkg.sha512",
+        "vanara.pinvoke.user32.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows10.0.22621": [
+      "Vanara.PInvoke.User32 >= 4.1.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ym123\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj",
+      "projectName": "Fischless.HotkeyCapture",
+      "projectPath": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj",
+      "packagesPath": "C:\\Users\\ym123\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows10.0.22621.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows10.0.22621": {
+          "targetAlias": "net8.0-windows10.0.22621.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0-windows10.0.22621": {
+        "targetAlias": "net8.0-windows10.0.22621.0",
+        "dependencies": {
+          "Vanara.PInvoke.User32": {
+            "target": "Package",
+            "version": "[4.1.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.28, 8.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.28, 8.0.28]"
+          },
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.22621.57, 10.0.22621.57]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.28, 8.0.28]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref.Windows": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.118/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

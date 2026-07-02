@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\BGI-onekeymacro\\BetterGenshinImpact.OneKeyMacro\\BetterGenshinImpact.OneKeyMacro.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\BGI-onekeymacro\\BetterGenshinImpact.OneKeyMacro\\BetterGenshinImpact.OneKeyMacro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\BGI-onekeymacro\\BetterGenshinImpact.OneKeyMacro\\BetterGenshinImpact.OneKeyMacro.csproj",
+        "projectName": "BetterGenshinImpact.OneKeyMacro",
+        "projectPath": "D:\\projects\\BGI-onekeymacro\\BetterGenshinImpact.OneKeyMacro\\BetterGenshinImpact.OneKeyMacro.csproj",
+        "packagesPath": "C:\\Users\\ym123\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\BGI-onekeymacro\\BetterGenshinImpact.OneKeyMacro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.22621.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.22621": {
+            "targetAlias": "net8.0-windows10.0.22621.0",
+            "projectReferences": {
+              "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj": {
+                "projectPath": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj"
+              },
+              "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\Fischless.WindowsInput.csproj": {
+                "projectPath": "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\Fischless.WindowsInput.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.22621": {
+          "targetAlias": "net8.0-windows10.0.22621.0",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Vanara.PInvoke.User32": {
+              "target": "Package",
+              "version": "[4.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22621.57, 10.0.22621.57]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj",
+        "projectName": "Fischless.HotkeyCapture",
+        "projectPath": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj",
+        "packagesPath": "C:\\Users\\ym123\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.22621.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.22621": {
+            "targetAlias": "net8.0-windows10.0.22621.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.22621": {
+          "targetAlias": "net8.0-windows10.0.22621.0",
+          "dependencies": {
+            "Vanara.PInvoke.User32": {
+              "target": "Package",
+              "version": "[4.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22621.57, 10.0.22621.57]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\Fischless.WindowsInput.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\Fischless.WindowsInput.csproj",
+        "projectName": "Fischless.WindowsInput",
+        "projectPath": "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\Fischless.WindowsInput.csproj",
+        "packagesPath": "C:\\Users\\ym123\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Vanara.PInvoke.User32": {
+              "target": "Package",
+              "version": "[4.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterGenshinImpact.OneKeyMacro", "BetterGenshinImpact.OneKeyMacro\BetterGenshinImpact.OneKeyMacro.csproj", "{D6957863-C963-48EF-B19A-3CE480C192B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fischless.WindowsInput", "Fischless.WindowsInput\Fischless.WindowsInput.csproj", "{DC2A28DA-B36F-4978-A84C-6B86DE4F1DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fischless.HotkeyCapture", "Fischless.HotkeyCapture\Fischless.HotkeyCapture.csproj", "{388A5772-AD16-4D73-BA39-EE56D752745F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6957863-C963-48EF-B19A-3CE480C192B7}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D6957863-C963-48EF-B19A-3CE480C192B7}.Debug|Any CPU.Build.0 = Debug|x64
+		{D6957863-C963-48EF-B19A-3CE480C192B7}.Release|Any CPU.ActiveCfg = Release|x64
+		{D6957863-C963-48EF-B19A-3CE480C192B7}.Release|Any CPU.Build.0 = Release|x64
+		{DC2A28DA-B36F-4978-A84C-6B86DE4F1DA5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DC2A28DA-B36F-4978-A84C-6B86DE4F1DA5}.Debug|Any CPU.Build.0 = Debug|x64
+		{DC2A28DA-B36F-4978-A84C-6B86DE4F1DA5}.Release|Any CPU.ActiveCfg = Release|x64
+		{DC2A28DA-B36F-4978-A84C-6B86DE4F1DA5}.Release|Any CPU.Build.0 = Release|x64
+		{388A5772-AD16-4D73-BA39-EE56D752745F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{388A5772-AD16-4D73-BA39-EE56D752745F}.Debug|Any CPU.Build.0 = Debug|x64
+		{388A5772-AD16-4D73-BA39-EE56D752745F}.Release|Any CPU.ActiveCfg = Release|x64
+		{388A5772-AD16-4D73-BA39-EE56D752745F}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal

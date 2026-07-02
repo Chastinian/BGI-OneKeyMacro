@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "CzLQj8wbTg8=",
+  "success": true,
+  "projectFilePath": "D:\\projects\\BGI-onekeymacro\\Fischless.HotkeyCapture\\Fischless.HotkeyCapture.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.core\\4.1.3\\vanara.core.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.gdi32\\4.1.3\\vanara.pinvoke.gdi32.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.kernel32\\4.1.3\\vanara.pinvoke.kernel32.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.shared\\4.1.3\\vanara.pinvoke.shared.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.user32\\4.1.3\\vanara.pinvoke.user32.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.57\\microsoft.windows.sdk.net.ref.10.0.22621.57.nupkg.sha512"
+  ],
+  "logs": []
+}

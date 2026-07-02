@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "MZm8ZrvrkiA=",
+  "success": true,
+  "projectFilePath": "D:\\projects\\BGI-onekeymacro\\Fischless.WindowsInput\\Fischless.WindowsInput.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ym123\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.core\\4.1.3\\vanara.core.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.gdi32\\4.1.3\\vanara.pinvoke.gdi32.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.kernel32\\4.1.3\\vanara.pinvoke.kernel32.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.shared\\4.1.3\\vanara.pinvoke.shared.4.1.3.nupkg.sha512",
+    "C:\\Users\\ym123\\.nuget\\packages\\vanara.pinvoke.user32\\4.1.3\\vanara.pinvoke.user32.4.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
