@@ -8,7 +8,7 @@
 
 直接从 GitHub Releases 页面下载编译好的成品：
 
-> **[GitHub Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)**
+> **[GitHub Releases](https://github.com/Chastinian/BGI-OneKeyMacro/releases)**
 
 在 Releases 页面找到最新版本，下载 `BetterGenshinImpact.OneKeyMacro.zip`，解压后双击 `BetterGenshinImpact.OneKeyMacro.exe` 即可运行。
 
